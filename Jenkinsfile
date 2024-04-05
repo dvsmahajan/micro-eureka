@@ -1,19 +1,15 @@
 pipeline {
     agent any
     stages {
-        stage('Build') {
+        stage("Check Parameters") {
             steps {
-                sh 'mvn -B -DskipTests clean package'
-            }
-        }
-        stage('Test') {
-            steps {
-                sh 'mvn test'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                // Add deployment steps here (e.g., deploying to a server)
+                echo "In pipeline"
+                script {
+                    echo "Start condition check"
+                    build job: 'printuser'
+                    // def slaveJob = build job: 'printuser'
+                    // println slaveJob.rawBuild.log
+                }
             }
         }
     }
