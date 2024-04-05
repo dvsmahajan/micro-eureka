@@ -6,7 +6,7 @@ pipeline {
                 echo "In pipeline"
                 script {
                     echo "Start condition check"
-                    sh """ cd ; ls -ltrh; """
+                    sh """ pwd ; ls -ltrh; """
                     // def slaveJob = build job: 'printuser'
                     // println slaveJob.rawBuild.log
                 }
