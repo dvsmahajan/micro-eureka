@@ -1,8 +1,8 @@
 @Library('groovyScripts') _
 
-node{
+commons{
 
-    commons()
+    name:"myname"
 }
 
 // pipeline {
