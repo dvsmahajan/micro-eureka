@@ -2,7 +2,7 @@
 
 commons{
 
-    name:"myname"
+    name = "myname"
 }
 
 // pipeline {
