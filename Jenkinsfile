@@ -1,12 +1,12 @@
 @Library('groovyScripts') _
 
 node{
-    commons({
+    commons([
 
         home:"myHome",
         name:"myName",
         rep:"myRepo"
-    })
+    ])
 }
 
 // pipeline {
