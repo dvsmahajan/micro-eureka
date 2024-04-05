@@ -2,7 +2,8 @@
 
 commons{
 
-    name = "myname"
+    name = "myname",
+    versions = "My Version"
 }
 
 // pipeline {
