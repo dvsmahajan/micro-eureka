@@ -6,7 +6,7 @@ commons{
     versions = "My Version"
     deployment = true
     service = true
-    docker true
+    docker = true
     deploy = true
 }
 
