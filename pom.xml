@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.dvscorp</groupId>
 	<artifactId>eureka</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1</version>
 	<packaging>war</packaging>
 	<name>eureka</name>
 	<description>This app is for api gateway</description>
