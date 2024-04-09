@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: eureka
-          image: eureka
+          image: localhost:5000/eureka
           ports:
             - containerPort: 9090
           env:
@@ -30,4 +30,4 @@ spec:
             limits:
               memory: "512Mi"
               cpu: "500m"
-          imagePullPolicy: Never
+          imagePullPolicy: IfNotPresent
