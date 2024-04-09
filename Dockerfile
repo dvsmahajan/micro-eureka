@@ -1,4 +1,4 @@
-FROM openjdk:21-jdk-alpine
+FROM openjdk:21-jdk
 EXPOSE 9090
 ARG JAR_FILE=eureka-1.war
 ADD ${JAR_FILE} eureka-1.war
