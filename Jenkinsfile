@@ -9,5 +9,6 @@ commons{
     deploy = true
     repo = "https://github.com/dvsmahajan/micro-eureka.git"
     jarName = 'eureka'
+    archiveType = 'war'
 }
 
